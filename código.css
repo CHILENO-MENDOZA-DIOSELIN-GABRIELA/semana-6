@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+input.valid {
+    border: 2px solid green;
+}
+
+input.invalid {
+    border: 2px solid red;
+}
